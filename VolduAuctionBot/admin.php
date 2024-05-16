@@ -18,7 +18,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $dbHandler->addNewLot($pictureURL, $minCost, $author);
 
     // Перенаправление на ту же страницу после добавления лота
-    header('Location: /admin');
+    header('Location: /admin.php');
     exit;
 }
 

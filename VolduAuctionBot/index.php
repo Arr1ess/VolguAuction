@@ -52,7 +52,7 @@ $timer = $lotData['timer'];
 		<div class="mb-4">
 			<h2>Lot Information</h2>
 			<p><strong>ID:</strong> <?php echo $lot['id']; ?></p>
-			<p><strong>Picture URL:</strong> <?php echo $lot['pictureURL']; ?></p>
+			<img src="<?php echo $lot['pictureURL']; ?>" alt="Lot Image" style="max-width: 100px; height: auto;">
 			<p><strong>Min Cost:</strong> <?php echo $lot['minCost']; ?></p>
 			<p><strong>Author:</strong> <?php echo $lot['author']; ?></p>
 		</div>
