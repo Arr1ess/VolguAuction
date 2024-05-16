@@ -1,7 +1,13 @@
 <?php
+include_once "php/logging.php";
+include_once "php/config.php";
+include_once "php/DBHandler.php";
+
+
+
 // Пример данных ставок
 $bids = [
-	['user' => 'User 1', 'bid' => 100],
+	['user' => 'User 1', 'bid' => 120],
 	['user' => 'User 2', 'bid' => 150],
 	['user' => 'User 3', 'bid' => 200],
 	// Добавьте свои ставки здесь
